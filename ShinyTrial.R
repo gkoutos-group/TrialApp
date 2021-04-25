@@ -10,6 +10,7 @@ set.seed(.seed)
 
 # Extras ------------------------------------------------------------------
 
+
 require(parallel)
 require(vip)
 require(future.apply)
@@ -21,7 +22,7 @@ require(kableExtra)
 
 
 ui <- fluidPage(
-  "Hello, world!"
+  "Hello, hello world!"
 )
 server <- function(input, output, session) {
 }
